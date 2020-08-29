@@ -10,7 +10,7 @@ function Banner() {
 			<div className="banner__search">
 				{showSearch && <Search />}
 				<Button onClick={() => setShowSearch(!showSearch)} variant="outlined" className="banner__searchButton">
-					Search Dates
+					{showSearch ? 'Hide' : 'Search Dates'}
 				</Button>
 			</div>
 			<div className="banner__info">
