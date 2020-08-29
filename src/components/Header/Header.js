@@ -4,15 +4,18 @@ import SearchIcon from '@material-ui/icons/Search';
 import LanguageIcon from '@material-ui/icons/Language';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import { Avatar } from '@material-ui/core';
+import { Link } from 'react-router-dom';
 
 function Header() {
 	return (
 		<div className="header">
-			<img
-				src="https://blog.stronglogos.com/wp-content/uploads/2014/08/airbnb_horizontal_lockup_web.png"
-				className="header__icon"
-				alt=""
-			/>
+			<Link to = "/">
+				<img
+					src="https://blog.stronglogos.com/wp-content/uploads/2014/08/airbnb_horizontal_lockup_web.png"
+					className="header__icon"
+					alt=""
+				/>
+			</Link>
 
 			<div className="header__center">
 				<input type="text" />
