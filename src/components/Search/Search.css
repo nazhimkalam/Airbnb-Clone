@@ -1,17 +1,14 @@
 .search {
 	position: absolute;
 	top: 35px;
-	z-index: 100;
 	width: 100vw;
 	display: flex;
 	justify-content: center;
-
-	
 }
 
 .search > h2 {
-    display: flex;
-    margin:0 auto;
+	display: flex;
+	margin: 0 auto;
 	align-items: center;
 	justify-content: space-between;
 	width: 560px;
@@ -25,7 +22,7 @@
 	width: 540px;
 	padding: 20px;
 	position: absolute;
-    margin:0 auto;
+	margin: 0 auto;
 	outline: none;
 	height: 30px;
 	top: 420px;
@@ -34,7 +31,7 @@
 
 .search > button {
 	position: absolute;
-    margin:0 auto;
+	margin: 0 auto;
 	top: 480px;
 	text-transform: inherit !important;
 	background-color: #ff7779;

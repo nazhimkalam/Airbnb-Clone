@@ -35,7 +35,6 @@
            npm run build
            firebase deploy
 
-
 ---
 
 # In order to run the application in development mode run,

@@ -3,6 +3,7 @@
 		center center;
 	height: 60vh;
 	position: relative;
+	z-index: 100;
 
 	/* animation */
 	animation: animation 300ms ease-in 600ms;
