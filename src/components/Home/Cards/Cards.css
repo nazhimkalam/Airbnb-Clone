@@ -6,22 +6,9 @@
 	transition: transform 100ms ease-in;
 	cursor: pointer;
 
-	/* animation */
-	animation: animation 300ms ease-in 1000ms;
-	animation-fill-mode: forwards;
-	transform: translateY(-20px);
-	opacity: 0;
+	
 }
-@keyframes animation {
-	0% {
-		transform: translateY(-20px);
-		opacity: 0;
-	}
-	100% {
-		transform: translateY(0px);
-		opacity: 1;
-	}
-}
+
 .cards:hover {
 	transform: scale(1.07);
 }
