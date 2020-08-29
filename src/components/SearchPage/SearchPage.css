@@ -1,7 +1,7 @@
 .searchPage__info {
 	padding: 20px;
+	color: rgb(51, 51, 51);
 }
-
 .searchPage__info > p {
 	margin-bottom: 10px;
 	font-size: 14px;
@@ -15,4 +15,22 @@
 	border-radius: 30px;
 	text-transform: inherit;
 	margin: 5px;
+}
+.searchPage{
+	/* animation */
+	animation: animation 300ms ease-in 600ms;
+	animation-fill-mode: forwards;
+	transform: translateY(-20px);
+	opacity: 0;
+}
+
+@keyframes animation {
+	0% {
+		transform: translateY(-20px);
+		opacity: 0;
+	}
+	100% {
+		transform: translateY(0px);
+		opacity: 1;
+	}
 }

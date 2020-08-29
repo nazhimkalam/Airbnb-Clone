@@ -7,6 +7,22 @@
 	background-color: white;
 	z-index: 100;
 	width: 100%;
+
+	/* animation */
+	animation: animation 300ms ease-in 300ms;
+	animation-fill-mode: forwards;
+	transform: translateY(-20px);
+	opacity: 0;
+}
+@keyframes animation {
+	0% {
+		transform: translateY(-20px);
+		opacity: 0;
+	}
+	100% {
+		transform: translateY(0px);
+		opacity: 1;
+	}
 }
 .header__icon {
 	object-fit: contain;
@@ -33,6 +49,9 @@
 	display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 15vw;
+    width: 18vw;
     margin-right: 80px;
+}
+.header__right > p{
+	margin-right: 8px;
 }
