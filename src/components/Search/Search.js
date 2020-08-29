@@ -3,6 +3,8 @@ import './Search.css';
 import { DateRangePicker } from 'react-date-range';
 import 'react-date-range/dist/styles.css'; // main style file
 import 'react-date-range/dist/theme/default.css'; // theme css file
+import PeopleIcon from '@material-ui/icons/People';
+import { Button } from '@material-ui/core';
 
 // working with the date picker component
 
@@ -23,6 +25,11 @@ function Search() {
 	return (
 		<div className="search">
 			<DateRangePicker ranges={[selectionRange]} onChange={handleSelect} />
+			<h2>
+				Number of guests <PeopleIcon />
+			</h2>
+			<input type="text" min={0} defaultValue={2} type="number" />
+			<Button>Search Airbnb</Button>
 		</div>
 	);
 }
